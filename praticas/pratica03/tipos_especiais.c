@@ -3,8 +3,8 @@
 int main (){
     int paises;
     int idiomas;
-    long int populacao;
-    float aurea;
+    long long int populacao;
+    long double aurea;
 
     paises = 195;
     idiomas = 7100;
@@ -13,8 +13,8 @@ int main (){
  
     printf("%u\n", paises);
     printf("%u\n", idiomas);
-    printf("%.u\n", populacao);
-    printf("%.20f\n", aurea);
+    printf("%lli\n", populacao);
+    printf("%.20Lf\n", aurea);
     return 0;
  }
  
